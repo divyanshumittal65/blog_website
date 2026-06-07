@@ -1,4 +1,4 @@
-# ✒️ Inkwell - Full-Stack Blog Platform
+# ✒️ BW - Full-Stack Blog Platform
 
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black&style=flat-square)](#)
 [![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?logo=vite&logoColor=white&style=flat-square)](#)
