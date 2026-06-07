@@ -26,7 +26,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    linear-gradient(180deg, rgba(255, 250, 241, 0.72), rgba(247, 244, 239, 0.55)),
     url("../background.png") center / cover fixed,
     var(--bg);
 }
