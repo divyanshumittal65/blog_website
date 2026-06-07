@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    
+    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-x: hidden;
+    margin:  0;
+
+}
+
+.abc {
+    flex: 1;
+    padding: 1;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 30x;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    gap:24px;
+}
+
+.logo {
+    flex: 0.5;
+    width: 100%;
+    max-width: 90px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 24px; 
+    margin-right: 24px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111827; 
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1.5px solid #111827; 
+    color: #111827;
+    padding: 10px 22px;
+    border-radius: 8px; 
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-outline:hover {
+    background-color: #f3f4f6;
+}
+
+.btn-filled {
+    background-color: #111827; 
+    border: 1.5px solid #111827;
+    color: #ffffff;
+    padding: 10px 22px;
+    border-radius: 8px; 
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-filled:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.link-login {
+    background: none;
+    border: none;
+    color: #111827; 
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: color 0.2s ease;
+}
+
+.link-login:hover {
+    color: #000000;
+}
+.hero {
+    padding: 0px 5%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abc {
+    flex: 1;
+}
+
+.btn-group {
+    flex-shrink: 0;
+}
+.content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin-top:50px;
+}
+.content h1{
+    max-width:900px;
+}
+.content p{
+    max-width:900px;
+    margin-top:20px;
+}
+
+
+.content .btn-outline {
+    font-size: 14px;
+    padding: 12px 36px;
+    border-radius: 999px;
+}
