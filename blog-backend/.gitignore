@@ -1,0 +1,4 @@
+# Backend specific ignore settings
+node_modules/
+.env
+*.log
